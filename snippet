@@ -1,0 +1,5 @@
+# From https://github.com/fgrehm/vagrant-lxc/wiki
+# Required to use virbr0 from libvirt
+config.vm.provider :lxc do |vm|
+    vm.customize 'network.link', 'virbr0'
+net

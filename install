@@ -1,0 +1,9 @@
+# From https://github.com/fgrehm/vagrant-lxc/wiki
+#
+sudo yum install lxc lxc-extra redir
+
+# For networking, use libvirt unless explicit lxc-bridge used
+sudo yum install libvirt-daemon
+sudo systemctl start libvirtd
+
+
