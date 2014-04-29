@@ -1,0 +1,3 @@
+[submodule "vagrant-lxc"]
+	path = vagrant-lxc
+	url = https://github.com/fgrehm/vagrant-lxc.git
